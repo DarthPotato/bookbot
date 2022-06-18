@@ -25,7 +25,7 @@ def next_page():
     pyautogui.click(cords)
 
 try:
-    f = open('text.txt', "r")
+    f = open('text.txt', "r", encoding="utf-8")
 except:
     print('[BookBot] Could not find "text.txt" file!')
     print('[BookBot] Exiting program.')
